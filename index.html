@@ -4,109 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crema. | Handcrafted Mini Cakes & Lattes</title>
+    <title>Crema. | Coffee & Mini Cakes</title>
     <link rel="stylesheet" href="style.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Playfair+Display:ital,wght@0,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
         rel="stylesheet">
-    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
 
-    <nav class="glass-nav">
-        <div class="logo">crema.</div>
-        <div class="nav-links">
-            <a href="#specialties">Specialties</a>
-            <a href="#menu">Full Menu</a>
-            <a href="tel:+251900000000" class="btn-outline">Call Us</a>
-            <a href="https://beu.delivery" class="btn-beu">Order via Beu</a>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">crema.</div>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Find Us</a></li>
+                <li><a href="tel:+251911223344" class="call-btn">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="hero-v2">
-        <div class="hero-overlay"></div>
+    <section class="hero">
         <div class="hero-content">
-            <span class="tagline">Now Open in Addis</span>
-            <h1>Mini Cakes. <br><i>Major Flavor.</i></h1>
-            <p>Sip on our signature Spanish Latte while indulging in our boutique mini cake collection.</p>
-            <div class="hero-btns">
-                <a href="#menu" class="main-btn">Explore Menu</a>
+            <h1>Sweet Moments, <br><span>One Mini Cake at a Time.</span></h1>
+            <p>Experience our signature lattes and handcrafted desserts in the heart of the city.</p>
+            <a href="#" class="cta-beu">Order via Beu Delivery</a>
+        </div>
+    </section>
+
+    <section id="menu" class="specialties">
+        <h2>Our Specialties</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="emoji">latte</div>
+                <h3>Signature Lattes</h3>
+                <p>Vanilla Bean, Spanish Latte, & Salted Caramel.</p>
+            </div>
+            <div class="card highlight">
+                <div class="emoji">cake</div>
+                <h3>Mini Cakes</h3>
+                <p>Strawberry Shortcake, Pistachio, & Dark Chocolate Ganache.</p>
+            </div>
+            <div class="card">
+                <div class="emoji">milkshake</div>
+                <h3>Milkshakes</h3>
+                <p>Classic Cream, Berry Blast, & Cookies n' Cream.</p>
             </div>
         </div>
     </section>
 
-    <section class="features">
-        <div class="feature-item">
-            <div class="icon">☕</div>
-            <h4>Crafted Lattes</h4>
-            <p>Double-shot excellence.</p>
-        </div>
-        <div class="feature-item highlight-feature">
-            <div class="icon">🍰</div>
-            <h4>Mini Specialties</h4>
-            <p>Our famous 4-inch cakes.</p>
-        </div>
-        <div class="feature-item">
-            <div class="icon">🍓</div>
-            <h4>Fresh Only</h4>
-            <p>Baked daily at 6 AM.</p>
+    <section id="location" class="location-section">
+        <h2>Visit Our Cozy Corner</h2>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126115.11545620448!2d38.7183319808381!3d8.963471018591782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1713910000000!5m2!1sen!2set"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
 
-    <section id="menu" class="menu-explorer">
-        <h2 class="section-title">The Sweet List</h2>
-        <div class="menu-tabs">
-            <div class="menu-grid">
-                <div class="menu-card">
-                    <div class="badge">Must Try</div>
-                    <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=500"
-                        alt="Mini Cake">
-                    <div class="card-info">
-                        <h3>Rose & Pistachio Mini</h3>
-                        <p>Delicate floral notes with crushed nuts.</p>
-                        <span class="price">250 ETB</span>
-                    </div>
-                </div>
-                <div class="menu-card">
-                    <img src="https://images.unsplash.com/photo-1541167760496-162955ed8a9f?auto=format&fit=crop&q=80&w=500"
-                        alt="Latte">
-                    <div class="card-info">
-                        <h3>Spanish Latte</h3>
-                        <p>Sweetened condensed milk meets robust espresso.</p>
-                        <span class="price">120 ETB</span>
-                    </div>
-                </div>
-                <div class="menu-card">
-                    <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80&w=500"
-                        alt="Milkshake">
-                    <div class="card-info">
-                        <h3>Lotus Biscoff Shake</h3>
-                        <p>Creamy, crunchy, and dangerously sweet.</p>
-                        <span class="price">180 ETB</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer-clean">
-        <div class="footer-grid">
-            <div class="f-box">
-                <h3>Location</h3>
-                <p>Bole, Behind Edna Mall<br>Addis Ababa, Ethiopia</p>
-            </div>
-            <div class="f-box">
-                <h3>Hours</h3>
-                <p>Mon-Sun: 8:00 AM - 9:00 PM</p>
-            </div>
-        </div>
+    <footer>
+        <p>&copy; 2026 Crema. Aesthetic Cafe</p>
     </footer>
 
-    <script>
-        ScrollReveal().reveal('.menu-card', { delay: 200, distance: '50px', origin: 'bottom', interval: 100 });
-        ScrollReveal().reveal('.hero-content', { delay: 100, distance: '30px', origin: 'left' });
-    </script>
 </body>
 
 </html>
